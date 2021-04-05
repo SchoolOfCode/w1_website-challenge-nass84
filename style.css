@@ -29,7 +29,7 @@ color: #6C8647 ;
     border-radius: 50px 0 50px 50px;
 }
 
-ul { /* why doesnt this work with id*/
+ul { /* there is default padding*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -161,4 +161,4 @@ ul { /* why doesnt this work with id*/
       color: white;
         }
     
-   
+    

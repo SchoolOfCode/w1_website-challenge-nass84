@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="results.html" method="GET" enctype="multipart/form-data" netlify> 
+            <div> 
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" value="value sets a default name in box">
+            </div>
+            <div> 
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div> 
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="url"> URL </label>
+                <input type="url" name="url" id="url">
+            </div>
+            <div> 
+                <label for="placeholder">Placeholder Example</label>
+                <input type="text" name="name" id="name" placeholder="placeholder">
+            </div>  
+            <div> 
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div> 
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="200" step="1"> 
+            </div>
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date" min="2020-12-04" max="2021-03-01">
+            </div>      
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                 I like checkboxes for multiple answers:
+                <div>
+                    <label for="cat">Cat</label>
+                    <input type="checkbox" name="cat" id="cat">
+                </div>
+                <div>
+                    <label for="dog">Dog</label>
+                    <input type="checkbox" name="dog" id="dog">
+                </div>
+            </div>
+            <div>
+                <label for="Eye Colour"> Use select to select eye colour </label>
+                <select name="eyeColor" id="eyeColor">
+                    <option value="Green" label="Green"> Green </option>
+                    <option value="Blue" label="Blue"> Blue </option>
+                </select>
+            </div>
+            <div>
+                I like radio buttons for one choice:
+            </div>
+               <div>
+                   <label for="cat">Cat</label>
+                   <input type="radio" name="animal" id="cat" value="cat">
+               </div>
+               <div>
+                   <label for="dog">Dog</label>
+                   <input type="radio" name="animal" id="dog" value="dog">
+               </div>
+               <div>
+                   <label for="bio">textarea can be used for a Bio</label>
+                   <textarea id="bio" name="bio"></textarea>
+               </div>
+               <input type="hidden" name="hidden" value="canBeUsedForJavaScriptUserDoesntSeeThis">
+               <div>    
+                    <label for="color"> Colour Selection </label>
+                    <input type="color" name="color" id="color">
+                </div> 
+            <div>
+                <label for="file">Upload File</label>
+                <input id="file" type="file" name="file">
+            </div>
+            <div>
+               <button type="reset">Reset</button>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
