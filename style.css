@@ -72,6 +72,7 @@ ul { /* there is default padding*/
         h1 {
           font-size: 28px;
           font-weight: bold;
+          color: pink;
         }
     
         h2 {
