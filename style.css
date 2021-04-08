@@ -14,7 +14,7 @@ body {
     color:#333 ;
 }
 
-/* #scratch { /*doesn't work with bigger screen 
+/* #scratch { /*doesn't work with bigger screen
     width: 80vw;
     height: 60vw;
 }   */
@@ -121,10 +121,9 @@ blockquote {
 }
 
 #avatar {
-    width: 80vh;
-    height: 80vh;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto 50px auto;
 }
 
 .pink {
@@ -222,9 +221,9 @@ blockquote {
   }
 
   p {
-    font-size: 95%; 
+    font-size: 95%;
   }
-  
+
 }
 
 @media all and (max-width:389px) {
@@ -234,7 +233,7 @@ blockquote {
   }
 
   p {
-    font-size: 90%; 
+    font-size: 90%;
   }
 }
 
@@ -246,7 +245,7 @@ blockquote {
   }
 
   p {
-    font-size: 85%; 
+    font-size: 85%;
   }
 
   @media all and (max-width:280px) {
@@ -259,11 +258,11 @@ blockquote {
         font-size: 59%;
         font-weight: bold;
       }
-   
+
   }
 
   p {
-    font-size: 80%; 
+    font-size: 80%;
   }
 
 @media all and (max-width:200px) {
