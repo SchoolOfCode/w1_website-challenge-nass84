@@ -14,7 +14,7 @@ body {
     color:#333 ;
 }
 
-/* #scratch { /*doesn't work with bigger screen 
+/* #scratch { /*doesn't work with bigger screen
     width: 80vw;
     height: 60vw;
 }   */
@@ -148,6 +148,14 @@ blockquote {
 
 #git-hub {
     text-align: center;
+    clear: both;
+}
+
+#scratch {
+    width: 75vw;
+    height: 60vw;
+    max-width: 480px;
+    max-height: 384px;
 }
 
 #contact {
@@ -164,7 +172,7 @@ blockquote {
     margin: 0, 0, 20px, 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px 20px 20px 20px;
-    
+
 }
 
 .contact-link {
@@ -223,9 +231,9 @@ blockquote {
   }
 
   p {
-    font-size: 95%; 
+    font-size: 95%;
   }
-  
+
   h4 {
     font-size: 38px;
     }
@@ -242,7 +250,7 @@ blockquote {
   }
 
   p {
-    font-size: 90%; 
+    font-size: 90%;
   }
 
   .contact-link {
@@ -259,7 +267,7 @@ blockquote {
   }
 
   p {
-    font-size: 85%; 
+    font-size: 85%;
   }
 
   @media all and (max-width:280px) {
@@ -272,11 +280,11 @@ blockquote {
         font-size: 59%;
         font-weight: bold;
       }
-   
+
   }
 
   p {
-    font-size: 80%; 
+    font-size: 80%;
   }
 
 @media all and (max-width:200px) {
