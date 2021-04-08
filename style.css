@@ -13,16 +13,16 @@ body {
   align-content: center;
 }
 
-article {
+article { 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 20px, 20px, 20px, 20px;
+  margin: 20px, 200px, 20px, 200px;
   padding: 20px 30px 20px 30px;
   background-color: #F5F2F1;
-  flex: 0 1 auto;
-
 }
 
-.logo { /* letters space out too much and want them to increase insize */
+
+
+.logo {  
  display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
@@ -36,9 +36,11 @@ article {
 .letter{
   font-size: 120px;
   flex: 1 1 auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-ul { 
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,7 +50,7 @@ ul {
   font-weight: lighter;
   display: flex;
   flex-wrap: wrap;
-  align-content: center; /* doesnt work to make items center*/
+  justify-content: space-evenly; /* want to make social icons go to left*/
   }
 
 li {
@@ -71,19 +73,75 @@ li a:hover {
   transform: scale(1.1);
   color: white;
     }
-  
+
 li .social {
-      flex: 1
+      flex: 1 1 100%;
+      align-self: flex-end;
       }
 
-#sara {
+.name {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #6C8647;
+    line-height: 0%;
+    
+}
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid red 10px;
+}
+
+.item {
+border: green solid 5px;
+flex: 1 0 auto;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0%;
+/* padding: 30 10 10 10; */
+}
+
+
+#item1 {
+  width: 100px;
+  flex: 1 0 auto;
+  margin-bottom: 0%;
+}
+
+
+#item1 img { /* image is too big, how do i make a max height */
+  width: 100%;
+  border-radius: 50px 0 50px 50px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  align-self: center; 
+}
+
+#item2 {
+  width: 200px;
+  margin-bottom: 0%;
+  flex: 4 0 auto;
+}
+
+#item3 {
+
+  flex: 3 0 auto;
+}
+
+#item4 {
+  width: 400px;
+}
+/* #sara {
   width: 50%;
   height: 50%;
   margin: 10px 50px 10px 0;
   border-radius: 50px 0 50px 50px;
   display: flex;
   flex: 1 1 auto;
-}
+} */
+
 
 
 
@@ -102,20 +160,24 @@ li .social {
 #avatar {
   width: 250px;
   height: 250px;
-  margin: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
 }
 
 h1 {
-  
+
   font-size: 28px;
   font-weight: bold;
   color: #6C8647;
+  
 }
 
 h2 {
   font-size: 20px;
   font-weight: bold;
   color: #6C8647;
+  text-align: center;
 }
 
 h3 {
@@ -203,14 +265,14 @@ blockquote {
   color: white;
     }
 /*
-I want the picture in one box and about me in the other box next to it, set media query once it gets too big 
+I want the picture in one box and about me in the other box next to it, set media query once it gets too big
 .con-about {
   display: flex;
   /* flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center; 
+  align-content: center;
 }
 
 .it-about {
