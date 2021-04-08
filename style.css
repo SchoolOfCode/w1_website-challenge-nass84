@@ -14,10 +14,11 @@ body {
     color:#333 ;
 }
 
-#scratch {
+/* #scratch {
     width: 80vw;
     height: 60vw;
-}
+}   */
+
 
 a {
   color:black;
@@ -120,8 +121,8 @@ blockquote {
 }
 
 #avatar {
-    width: 250px;
-    height: 250px;
+    width: 80vh;
+    height: 80vh;
     margin-left: 10px;
     margin-bottom: 50px;
 }
