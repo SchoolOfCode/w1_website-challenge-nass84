@@ -1,9 +1,12 @@
-/* colour pallet -  #DB939A  #E6C983  #6C8647 #B0988C */
+/* color pallet -  #DB939A  #E6C983  #6C8647 #B0988C */
 
 
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
+    margin: 0;
     background-color: white;
     color:#333 ;
     display: flex;
@@ -16,7 +19,7 @@ a {
 
 a:hover {
 color: #6C8647 ;
-} 
+}
 
 #logo {
     font-size: 150px;
@@ -41,11 +44,11 @@ ul { /* there is default padding*/
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     font-weight: lighter;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color:white;
@@ -53,63 +56,63 @@ ul { /* there is default padding*/
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  
+
+
   li a:hover {
     background-color: #949293;
     transform: scale(1.1);
     color: white;
       }
-    
+
       article {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin: 20px, 20px, 20px, 20px;
         padding: 20px 30px 20px 30px;
         background-color: #F5F2F1;
-        
+
         }
-    
+
         h1 {
           font-size: 28px;
           font-weight: bold;
         }
-    
+
         h2 {
           font-size: 20px;
           font-weight: bold;
           color: #6C8647;
         }
-    
+
         h3 {
           font-size: 18px;
           font-weight: bold;
           color: #6C8647;
         }
-    
+
         h4 {
           font-size: 48px;
           font-weight: bold;
           color: white;
         }
-    
+
         h5 {
           font-size: 18px;
           font-weight: bold;
           color: white;
         }
-    
+
         blockquote {
             margin: 40px 40px 40px 40px;
             color: #333;
         }
-    
+
         #avatar {
           width: 250px;
           height: 250px;
           margin-left: 10px;
           margin-bottom: 50px;
         }
-    
+
         .pink {
         clear: left;
         background-color:  #DB939A;
@@ -119,8 +122,8 @@ ul { /* there is default padding*/
         margin: auto;
         border-radius: 30px;
         }
-    
-        
+
+
         blockquote {
           background-color: #DB939A;
           font-weight: bold;
@@ -128,17 +131,17 @@ ul { /* there is default padding*/
           padding: 5%;
           opacity: 80%;
         }
-    
+
         #git-hub {
           text-align: center;
         }
-    
+
         #contact {
           display: inline;
           line-height: 10px;
-    
+
         }
-    
+
         #contact {
           background-color:#B0988C;
           color: white;
@@ -148,37 +151,37 @@ ul { /* there is default padding*/
           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           padding: 5px 20px 20px 20px;
         }
-    
+
         .contact-link {
-          
+
           color:white;
           text-align: center;
           font-size: 18px;
           padding: 14px 16px;
           text-decoration: none;
         }
-        
-        
+
+
         .contact-link:hover {
           background-color: #949293;
           transform: scale(1.1);
           color: white;
             }
-        
-        
-      /* Underneath is flex 
+
+
+      /* Underneath is flex
        */
   .navbar ul{
     display: flex;
-    
+
   }
 
   .navbar li {
-    flex:5 
+    flex:5
 
 }
 
-.navbar .social {  
+.navbar .social {
     flex: 1
 }
 
@@ -186,10 +189,10 @@ ul { /* there is default padding*/
 
 @media all and (max-width:500px) {
 
-        
+
   .navbar ul {
-      flex-wrap: wrap; 
-  }    
+      flex-wrap: wrap;
+  }
 
   .navbar li {
       flex: 1 1 30%;
@@ -208,6 +211,5 @@ ul { /* there is default padding*/
 }
 
 .logo {
-  font-size: 75px; 
+  font-size: 75px;
 }
-
