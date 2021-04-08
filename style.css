@@ -220,20 +220,51 @@ blockquote {
   .letter {
     font-size: 100px;
   }
+
+  p {
+    font-size: 95%; 
+  }
+  
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:389px) {
+.heading {
+    font-size: 95%;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 90%; 
+  }
+}
+
+@media all and (max-width:325px) {
 
     .letter {
       font-size: 80px;
     }
   }
 
-  @media all and (max-width:260px) {
+  p {
+    font-size: 85%; 
+  }
+
+  @media all and (max-width:280px) {
 
     .letter {
       font-size: 48px;
     }
+
+    .heading {
+        font-size: 59%;
+        font-weight: bold;
+      }
+   
+  }
+
+  p {
+    font-size: 80%; 
+  }
 
 @media all and (max-width:200px) {
 
