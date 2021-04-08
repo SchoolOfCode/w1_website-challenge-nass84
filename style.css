@@ -14,7 +14,7 @@ body {
     color:#333 ;
 }
 
-/* #scratch {
+/* #scratch { /*doesn't work with bigger screen 
     width: 80vw;
     height: 60vw;
 }   */
@@ -217,13 +217,31 @@ blockquote {
       flex:1 1 15%;
   }
 
-
+  .letter {
+    font-size: 100px;
+  }
 }
+
+@media all and (max-width:320px) {
+
+    .letter {
+      font-size: 80px;
+    }
+  }
+
+  @media all and (max-width:260px) {
+
+    .letter {
+      font-size: 48px;
+    }
 
 @media all and (max-width:200px) {
-  flex-basis: 100%;
+
+  .letter {
+    font-size: 32px;
+  }
 }
 
-.logo {
-  font-size: 75px;
-}
+
+
+.
