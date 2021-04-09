@@ -44,5 +44,5 @@ My website is about my partner Sara, I wanted to use the skills I had learned in
  
 ### Credit from people outside of School of Code 
  
-- [https://github.com/maxwedwards](Max Edwards) assisted me with user testing, learning Github branches and merges, removing the default margin, resizing the scratch game and avatar
+- Max Edwards assisted me with user testing, learning Github branches and merges, removing the default margin, resizing the scratch game and avatar
 - Jonathon Hughes assisted with user testing on different browsers and solved the issue about white space appearing at certain resolutions due to Macs not having certain fonts like Luicinda installed. 
