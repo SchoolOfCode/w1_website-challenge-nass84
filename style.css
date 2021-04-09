@@ -111,14 +111,13 @@ blockquote {
     opacity: 80%;
 }
 
-#avatar {
-    width: 80vh;
-    height: 80vh;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 70px;
-    max-width: 250px;
-    max-height: 250px;
+.about-me {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.center {
+    text-align: center;
 }
 
 .pink {
@@ -131,19 +130,33 @@ blockquote {
     border-radius: 30px;
 }
 
-#git-hub {
+.example-work {
     text-align: center;
     clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
 }
+
+.example-work__item{
+    flex:1, 0, auto;
+}
+
 
 #scratch {
     width: 75vw;
     height: 60vw;
     max-width: 480px;
-    max-height: 384px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    max-height: 384px;  
+}
+
+#avatar {
+    width: 80vh;
+    height: 80vh;
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
 }
 
 #contact {
