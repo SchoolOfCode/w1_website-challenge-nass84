@@ -115,7 +115,8 @@ blockquote {
     width: 80vh;
     height: 80vh;
     margin-left: 20px;
-    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-bottom: 70px;
     max-width: 250px;
     max-height: 250px;
 }
@@ -140,6 +141,9 @@ blockquote {
     height: 60vw;
     max-width: 480px;
     max-height: 384px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #contact {
