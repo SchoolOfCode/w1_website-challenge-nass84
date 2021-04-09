@@ -65,7 +65,7 @@ li a:hover {
 }
 
 article {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
     padding: 20px 30px 20px 30px;
     background-color: #F5F2F1;
     margin-left: 15px;
@@ -104,6 +104,11 @@ h5 {
 blockquote {
     margin: 40px 40px 40px 40px;
     color: #333;
+    background-color: #DB939A;
+    font-weight: bold;
+    border-radius: 50px 0 50px 50px;
+    padding: 2em;
+    opacity: 80%;
 }
 
 #avatar {
@@ -125,15 +130,6 @@ blockquote {
     border-radius: 30px;
 }
 
-
-blockquote {
-    background-color: #DB939A;
-    font-weight: bold;
-    border-radius: 50px 0 50px 50px;
-    padding: 2em;
-    opacity: 80%;
-}
-
 #git-hub {
     text-align: center;
     clear: both;
@@ -149,7 +145,6 @@ blockquote {
 #contact {
     display: inline;
     line-height: 10px;
-
 }
 
 #contact {
@@ -158,9 +153,8 @@ blockquote {
     display: block;
     text-align: center;
     margin: 0, 0, 20px, 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, sans-serif, Helvetica,Arial,sans-serif;
     padding: 5px 20px 20px 20px;
-
 }
 
 .flex-cont{
@@ -172,7 +166,6 @@ blockquote {
  }
 
 .contact-link {
-
     color:white;
     text-align: center;
     font-size: 18px;
@@ -216,7 +209,6 @@ blockquote {
     .navbar li {
         flex: 1 1 30%;
     }
-
 
     .navbar .social {
         flex:1 1 15%;
@@ -266,7 +258,7 @@ blockquote {
     #item-con3 {
         display: block;
         }
-    
+   
 }
 
 @media all and (max-width:325px) {
