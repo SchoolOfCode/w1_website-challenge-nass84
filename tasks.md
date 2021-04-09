@@ -6,9 +6,9 @@
 - [x] Friday - Content finished and sent to partner 
 - [x] Saturday - Start writing Html 
 - [x] Sunday - Meet up and and do an hour each of pair programming 1pm 
-- [ ] Monday - Send to group and ask for feedback 
-- [ ] Tuesday Make Changes
-- [ ] Wednesday Send to everyone 
-- [ ] Thursday - Make Changes 
+- [x] Monday - Send to group and ask for feedback 
+- [x] Tuesday Make Changes
+- [x] Wednesday Send to everyone 
+- [x] Thursday - Make Changes 
 - [ ] Friday - Make Changes
-- [ ] Saturday - Finish Website 
+- [ ] Before Saturday - Finish Website 
