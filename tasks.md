@@ -12,3 +12,7 @@
 - [x] Thursday - Make Changes 
 - [ ] Friday - Make Changes
 - [ ] Before Saturday - Finish Website 
+
+## Colour Pallet
+
+/* color pallet -  #DB939A  #E6C983  #6C8647 #B0988C */
