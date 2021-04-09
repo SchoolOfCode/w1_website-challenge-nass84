@@ -133,6 +133,14 @@ blockquote {
 
 #git-hub {
     text-align: center;
+    clear: both;
+}
+
+#scratch {
+    width: 75vw;
+    height: 60vw;
+    max-width: 480px;
+    max-height: 384px;
 }
 
 #contact {
@@ -158,7 +166,7 @@ blockquote {
     justify-content: center;
     align-items: flex-end;
     align-content: center;
-}
+ }
 
 .contact-link {
 
@@ -226,7 +234,6 @@ blockquote {
     .contact-link {
         font-size: 16px;
     }
-
 
 }
 
