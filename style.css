@@ -249,8 +249,12 @@ blockquote {
 
 @media all and (max-width:395px) {
 .heading {
-    font-size: 95%;
+    font-size: 97%;
     font-weight: bold;
+  }
+
+  h1 {
+      font-size: 95%;
   }
 
   p {
@@ -277,13 +281,16 @@ blockquote {
       font-size: 80px;
     }
   
+    h1 {
+        font-size: 90%;
+    }
 
   p {
     font-size: 85%; 
   }
 
       h4 {
-        font-size: 25px;
+        font-size: 28px;
         }
     
       .contact-link {
@@ -305,6 +312,9 @@ blockquote {
         font-weight: bold;
       }
 
+      h1 {
+        font-size: 85%;
+    }
       h4 {
         font-size: 16px;
         }
