@@ -1,3 +1,4 @@
+
 html, body {
     width: 100%;
 }
@@ -33,10 +34,10 @@ a:hover {
     margin: 60px 50px 20px 0;
     border-radius: 50px 0 50px 50px;
     max-width: 200px;
-    max-height: 384px;   
+    max-height: 384px;
 }
 
-ul {  
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -148,7 +149,7 @@ blockquote {
     width: 75vw;
     height: 60vw;
     max-width: 480px;
-    max-height: 384px;  
+    max-height: 384px;
 }
 
 #avatar {
@@ -196,7 +197,7 @@ blockquote {
     transform: scale(1.1);
     color: white;
 }
-    
+
 .navbar ul{
     display: flex;
 }
@@ -236,9 +237,9 @@ blockquote {
     }
 
     p {
-        font-size: 95%; 
+        font-size: 95%;
     }
-  
+
     h4 {
         font-size: 40px;
     }
@@ -250,7 +251,7 @@ blockquote {
 }
 
 @media all and (max-width:395px) {
-    
+
     .heading {
         font-size: 97%;
         font-weight: bold;
@@ -261,7 +262,7 @@ blockquote {
     }
 
     p {
-        font-size: 90%; 
+        font-size: 90%;
     }
 
     h4 {
@@ -275,7 +276,7 @@ blockquote {
     #item-con3 {
         display: block;
         }
-   
+
 }
 
 @media all and (max-width:325px) {
@@ -283,25 +284,25 @@ blockquote {
     .letter {
         font-size: 80px;
     }
-  
+
     h1 {
         font-size: 90%;
     }
 
     p {
-        font-size: 85%; 
+        font-size: 85%;
     }
 
     h4 {
         font-size: 28px;
     }
-    
+
     .contact-link {
         font-size: 10px;
     }
 
 }
- 
+
 @media all and (max-width:280px) {
 
     .letter {
@@ -316,13 +317,13 @@ blockquote {
     h1 {
         font-size: 85%;
     }
-      
+
     h4 {
         font-size: 16px;
     }
-  
+
     p {
-        font-size: 80%; 
+        font-size: 80%;
     }
 
 }
@@ -333,3 +334,155 @@ blockquote {
         font-size: 32px;
     }
 }
+
+/*
+@media all and (min-width:576px) {
+
+    article {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width:500px) {
+
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        flex: 1 1 30%;
+    }
+
+    .navbar .social {
+        flex:1 1 15%;
+    }
+
+    .letter {
+        font-size: 0.7em;
+    }
+
+    p {
+        font-size: 95%;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .contact-link {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width:420px) {
+
+    .letter {
+        font-size: 0.7em;
+    }
+
+    .heading {
+        font-size: 97%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 95%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .contact-link {
+        font-size: 14px;
+    }
+
+    #item-con3 {
+        display: block;
+        }
+
+}
+
+@media all and (max-width:350px) {
+
+    .letter {
+        font-size: 0.65em;
+    }
+
+}
+
+@media all and (max-width:325px) {
+
+    .letter {
+        font-size: 0.6em;
+    }
+
+    h1 {
+        font-size: 90%;
+    }
+
+    p {
+        font-size: 85%;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .contact-link {
+        font-size: 10px;
+    }
+
+}
+
+@media all and (max-width:286px) {
+
+    .letter {
+        font-size: 0.5em;
+    }
+
+    .heading {
+        font-size: 50%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .contact-link {
+        font-size: 8px;
+    }
+
+}
+
+@media all and (max-width:240px) {
+
+    .letter {
+        font-size: 0.3em;
+    }
+
+    h1 {
+        font-size: 8px;
+    }
+} */
