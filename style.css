@@ -1,0 +1,488 @@
+
+html, body {
+    width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color:#333 ;
+}
+
+a {
+     color:black;
+}
+
+a:hover {
+    color: #6C8647 ;
+}
+
+#logo {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#sara {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 60px 50px 20px 0;
+    border-radius: 50px 0 50px 50px;
+    max-width: 200px;
+    max-height: 384px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-weight: lighter;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #949293;
+    transform: scale(1.1);
+    color: white;
+}
+
+article {
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    padding: 20px 30px 20px 30px;
+    background-color: #F5F2F1;
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6C8647;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6C8647;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+blockquote {
+    margin: 40px 40px 40px 40px;
+    color: #333;
+    background-color: #DB939A;
+    font-weight: bold;
+    border-radius: 50px 0 50px 50px;
+    padding: 2em;
+    opacity: 80%;
+}
+
+.about-me {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.pink {
+    clear: left;
+    background-color:  #DB939A;
+    width: 70%;
+    height: 3px;
+    margin-top: 30px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.example-work {
+    text-align: center;
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.example-work__item{
+    flex:1, 0, auto;
+}
+
+
+#scratch {
+    width: 75vw;
+    height: 60vw;
+    max-width: 480px;
+    max-height: 384px;
+}
+
+#avatar {
+    width: 80vh;
+    height: 80vh;
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
+}
+
+#contact {
+    display: inline;
+    line-height: 10px;
+}
+
+#contact {
+    background-color:#B0988C;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0, 0, 20px, 0;
+    font-family: Verdana, sans-serif, Helvetica,Arial,sans-serif;
+    padding: 5px 20px 20px 20px;
+}
+
+.flex-cont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+ }
+
+.contact-link {
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex-wrap: 0 0 auto;
+}
+
+.contact-link:hover {
+    background-color: #949293;
+    transform: scale(1.1);
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li {
+    flex:5
+}
+
+.navbar .social {
+    flex: 1
+}
+
+@media all and (min-width:576px) {
+
+    article {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width:500px) {
+
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        flex: 1 1 30%;
+    }
+
+    .navbar .social {
+        flex:1 1 15%;
+    }
+
+    .letter {
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 95%;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .contact-link {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width:395px) {
+
+    .heading {
+        font-size: 97%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 95%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .contact-link {
+        font-size: 14px;
+    }
+
+    #item-con3 {
+        display: block;
+        }
+
+}
+
+@media all and (max-width:325px) {
+
+    .letter {
+        font-size: 80px;
+    }
+
+    h1 {
+        font-size: 90%;
+    }
+
+    p {
+        font-size: 85%;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .contact-link {
+        font-size: 10px;
+    }
+
+}
+
+@media all and (max-width:280px) {
+
+    .letter {
+        font-size: 48px;
+    }
+
+    .heading {
+        font-size: 59%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 85%;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+}
+
+@media all and (max-width:200px) {
+
+    .letter {
+        font-size: 32px;
+    }
+}
+
+/*
+@media all and (min-width:576px) {
+
+    article {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width:500px) {
+
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        flex: 1 1 30%;
+    }
+
+    .navbar .social {
+        flex:1 1 15%;
+    }
+
+    .letter {
+        font-size: 0.7em;
+    }
+
+    p {
+        font-size: 95%;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .contact-link {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width:420px) {
+
+    .letter {
+        font-size: 0.7em;
+    }
+
+    .heading {
+        font-size: 97%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 95%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .contact-link {
+        font-size: 14px;
+    }
+
+    #item-con3 {
+        display: block;
+        }
+
+}
+
+@media all and (max-width:350px) {
+
+    .letter {
+        font-size: 0.65em;
+    }
+
+}
+
+@media all and (max-width:325px) {
+
+    .letter {
+        font-size: 0.6em;
+    }
+
+    h1 {
+        font-size: 90%;
+    }
+
+    p {
+        font-size: 85%;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .contact-link {
+        font-size: 10px;
+    }
+
+}
+
+@media all and (max-width:286px) {
+
+    .letter {
+        font-size: 0.5em;
+    }
+
+    .heading {
+        font-size: 50%;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .contact-link {
+        font-size: 8px;
+    }
+
+}
+
+@media all and (max-width:240px) {
+
+    .letter {
+        font-size: 0.3em;
+    }
+
+    h1 {
+        font-size: 8px;
+    }
+} */
